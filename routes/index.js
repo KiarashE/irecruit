@@ -6,7 +6,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render("index", { title: "Express" });
 });
 
 module.exports = router;
@@ -14,7 +14,7 @@ module.exports = router;
 
 var mongodb = require('mongodb');
 
-var uri = 'mongodb://localhost:27017/irecruitdb';
+var uri = "mongodb://localhost:27017/irecruitdb";
 
 mongodb.MongoClient.connect(uri, function (error, db) {
     if(error) {
