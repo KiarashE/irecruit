@@ -48,6 +48,7 @@ fabric.properties
 .idea/httpRequests
 
 /.idea/
+.idea/*
 colors.scheme.xml
 /node_modules/
 debugger.xml
