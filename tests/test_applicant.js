@@ -1,12 +1,12 @@
 var assert = require('assert');
 
-describe('my feature function', function () {
+describe('test', function () {
 
     it('work', function () {
         assert.equal('A', 'A');
     });
 
-    it('fails lika shit', function () {
+    it('fails', function () {
         assert.throws(function () {
             throw 'Error!';
         });

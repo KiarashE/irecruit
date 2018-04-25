@@ -1,6 +1,4 @@
 
-
-
 var express = require('express');
 var router = express.Router();
 
@@ -14,9 +12,10 @@ module.exports = router;
 
 var mongodb = require('mongodb');
 
-var uri = "mongodb://localhost:27017/irecruitdb";
+var uri = "mongodb://localhost:27017";
 
-mongodb.MongoClient.connect(uri, function (error, db) {
+mongodb.MongoClient.connect(uri, function (error, client) {
+    var db = client.db("irecruitdb");
     if(error) {
         console.log(error);
         process.exit(1);
