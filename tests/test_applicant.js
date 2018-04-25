@@ -1,12 +1,12 @@
 var assert = require('assert');
 
-describe('test', function () {
+describe('applicant test package', function () {
 
-    it('work', function () {
+    it('firstname', function () {
         assert.equal('A', 'A');
     });
 
-    it('fails', function () {
+    it('Any errors', function () {
         assert.throws(function () {
             throw 'Error!';
         });

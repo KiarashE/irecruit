@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "test": "mocha tests/test_applicant.js"
+    "test": "mocha tests/test_applicant.js",
+    "test-tap": "mocha -R tap tests/test_applicant.js"
   },
   "dependencies": {
     "cookie-parser": "1.4.3",
