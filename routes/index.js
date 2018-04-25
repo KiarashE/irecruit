@@ -1,4 +1,3 @@
-
 var express = require('express');
 var router = express.Router();
 
@@ -8,7 +7,6 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
-
 
 var mongodb = require('mongodb');
 
@@ -21,7 +19,7 @@ mongodb.MongoClient.connect(uri, function (error, client) {
         process.exit(1);
     }
 
-    db.collection('person').insert({firstname: 'Kiarash', lastname: 'Effatian'}, function (error, result) {
+    db.collection('person').insert({firstname: 'Thomas', lastname: 'Mesko'}, function (error, result) {
         if(error) {
             console.log(error);
             process.exit(1);

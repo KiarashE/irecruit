@@ -1,9 +1,9 @@
 var assert = require('assert');
 
-describe('applicant test package', function () {
+describe('test', function () {
 
     it('firstname', function () {
-        assert.equal('A', 'A');
+        assert.equal('a', 'a');
     });
 
     it('Any errors', function () {
