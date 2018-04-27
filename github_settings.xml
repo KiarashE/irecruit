@@ -1,5 +1,6 @@
 <application>
-  <component name="GithubSettings">
-    <option name="AUTH_TYPE" value="TOKEN" />
-  </component>
+    <component name="GithubSettings">
+        <option name="LOGIN" value="email.kia@gmail.com" />
+        <option name="AUTH_TYPE" value="TOKEN" />
+    </component>
 </application>
