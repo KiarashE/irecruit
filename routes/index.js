@@ -1,6 +1,14 @@
 var express = require('express');
 var router = express.Router();
 
+/* GET home page. */
+router.get('/', function(req, res, next) {
+    res.render("index", { title: "Express" });
+});
+
+module.exports = router;
+
+/*
 var mongoose = require('mongoose');
 var schema = require('../schema/schema_applicant');
 
@@ -37,13 +45,6 @@ applicant.save(function (error) {
 
 
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-    res.render("index", { title: "Express" });
-});
-
-
-module.exports = router;
 var mongodb = require('mongodb');
 var uri = "mongodb://localhost:27017";
 
@@ -75,3 +76,4 @@ mongodb.MongoClient.connect(uri, function (error, client) {
         });
     });
 });
+*/
