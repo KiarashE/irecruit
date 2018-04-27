@@ -76,3 +76,4 @@ mongodb.MongoClient.connect(uri, function (error, client) {
     });
 });
 
+//Commit test med Thomas på fika 
